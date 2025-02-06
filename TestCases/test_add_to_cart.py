@@ -23,3 +23,5 @@ def test_add_to_cart(setup):
     # Verify that the product is added to the cart
     cart_count = driver.find_element(By.CLASS_NAME, "shopping_cart_badge").text  # Use By.CLASS_NAME instead
     assert cart_count == "1"
+
+

@@ -1,10 +1,7 @@
-import pytest
-
 from Pages.login_page import LoginPage
 
 
 # Test case: Verify user login with valid credentials
-
 def test_valid_login(setup):
     driver = setup
     login_page = LoginPage(driver)

@@ -1,0 +1,2 @@
+Cart is empty.
+Test passed: Cart is empty.
